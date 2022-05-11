@@ -1,3 +1,5 @@
+// Simple, remove the spaces from the string, then return the resultant string.
+
 // 1 ВАРИАНТ (МЕТОДЫ SPLIT и JOIN)
 
 function noSpace(x){
