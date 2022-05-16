@@ -3,7 +3,7 @@
 //  Разбиваем на массив, переворачиваем и собираем строку. (split,reverse,join)
 
 function solution(str){
-  return str.split('').reverse().join('')
+  return str.split('').reverse().join('');
 }
 
-console.log(solution('Fly me to the moon'))
+console.log(solution('Fly me to the moon'));
