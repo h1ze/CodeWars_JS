@@ -4,7 +4,6 @@
 //      Вариант 1. Через цикл и индекс
 
 function removeChar(str) {
-
     let result = '';
     for(item_1 in str) {
         if (item_1 != 0 && item_1 != str.length -1) {
@@ -12,22 +11,22 @@ function removeChar(str) {
         }
     }
     return result;
-};
+}
    
-   console.log(removeChar('asdvc'))
+  console.log(removeChar('asdvc'));
 
 //      Вариант 2. Метод slice
    
    function removeChar2(str2) {
     return str2.slice(1, -1);
-  }
+}
 
-  console.log(removeChar2('dsaczx'))
+ console.log(removeChar2('dsaczx'));
 
 //      Вариант 3. Метод substring
 
-  function removeChar3(str3){
-    return str3.substring(1, str3.length-1);
-   };
+function removeChar3(str3){
+  return str3.substring(1, str3.length-1);
+}
 
-   console.log(removeChar3('поезд'))
+ console.log(removeChar3('поезд'));
