@@ -6,7 +6,7 @@ function noSpace(x){
     return x.split(' ').join('');
 }
 
-console.log(noSpace('Проверяем   работу            функции.'))
+console.log(noSpace('Проверяем   работу            функции.'));
 
 
 // 2 ВАРИАНТ (МЕТОД REPLACE + РЕГУЛЯРКА)
@@ -14,6 +14,6 @@ console.log(noSpace('Проверяем   работу            функции
 
 function noSpace2(x){
     return x.replace(/\s/g, '');
-  }
+}
 
-  console.log(noSpace2('Проверяем    работу   функции.'))
+console.log(noSpace2('Проверяем    работу   функции.'));
