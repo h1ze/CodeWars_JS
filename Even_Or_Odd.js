@@ -12,7 +12,7 @@ function even_or_odd(number) {
     return result;
 }
 
-console.log(even_or_odd(144))
+console.log(even_or_odd(144));
 
 
 //Вариант 2. (С тернарным оператором)
@@ -21,7 +21,7 @@ function even_or_odd_2(number) {
     return number % 2 == 0 ? "Even" : "Odd";
 }
 
-console.log(even_or_odd_2(157))
+console.log(even_or_odd_2(157));
 
 
 // Вариант 3. (Доработанный с тернарным оператором. Если в результате операции возвращается 0, т.e false - сработает второе условие)
@@ -30,4 +30,4 @@ function even_or_odd_3(number) {
     return number % 2 ? "Odd" : "Even";
 }
 
-console.log(even_or_odd_3(158))
+console.log(even_or_odd_3(158));
